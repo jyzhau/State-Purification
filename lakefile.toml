@@ -1,0 +1,12 @@
+name = "EntanglementPurification"
+version = "0.1.0"
+defaultTargets = ["EntanglementPurification"]
+
+[[require]]
+name = "QIT"
+git = "https://github.com/QuAIR/Lean-QIT.git"
+rev = "da54e3070298468dc884877726bc45a92c57e4b3"
+
+[[lean_lib]]
+name = "EntanglementPurification"
+moreLeanArgs = ["-DautoImplicit=false"]
